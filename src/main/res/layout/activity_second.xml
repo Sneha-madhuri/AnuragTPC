@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#ffffff"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sneha.anuragtpc.SecondActivity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tpo"
+        android:background="#ffffff"
+        android:id="@+id/imageButton7"
+        android:layout_alignTop="@+id/imageButton6"
+        android:layout_alignStart="@+id/imageButton2" />
+
+    <TextView
+        android:text="CRT "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_alignStart="@+id/imageButton6"
+        android:id="@+id/textView7"
+        android:layout_alignEnd="@+id/imageButton6"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:text=" News Feed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignEnd="@+id/textView5" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/crt"
+        android:background="#ffffff"
+        android:id="@+id/imageButton6"
+        android:layout_alignTop="@+id/imageButton9"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Achievements"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/imageButton4"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Calender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/imageButton2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Placements"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textStyle="normal|bold"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageButton3" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/insitution"
+        android:id="@+id/imageButton5"
+        android:background="#ffffff"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="  Institution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/imageButton5"
+        android:layout_alignStart="@+id/imageButton5" />
+
+    <TextView
+        android:text="Discussion Forum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:layout_below="@+id/imageButton9"
+        android:layout_alignStart="@+id/imageButton3"
+        android:layout_alignEnd="@+id/imageButton3" />
+
+    <TextView
+        android:text="Directory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/imageButton7"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="8dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/anurag1"
+        android:id="@+id/imageView2"
+        android:layout_alignStart="@+id/imageButton7"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_alignBottom="@+id/textView5" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/news"
+        android:background="#ffffff"
+        android:id="@+id/imageButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="29dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/calender"
+        android:id="@+id/imageButton2"
+        android:background="#ffffff"
+        android:layout_alignTop="@+id/imageButton"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/achievements"
+        android:background="#ffffff"
+        android:id="@+id/imageButton4"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/placements"
+        android:background="#ffffff"
+        android:id="@+id/imageButton3"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/discussion"
+        android:id="@+id/imageButton9"
+        android:background="#ffffff"
+        android:layout_marginTop="58dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "556889436631",
+    "firebase_url": "https://anuragtpc.firebaseio.com",
+    "project_id": "anuragtpc",
+    "storage_bucket": "anuragtpc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556889436631:android:c12445e51ceb2618",
+        "android_client_info": {
+          "package_name": "com.example.sneha.anuragtpc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556889436631-k9ae8hkqivmvr2j7sdrqcerqqelf8cs8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJF4izTWvXS79qKxa0W0JGbNgzShdttZ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
